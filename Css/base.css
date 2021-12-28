@@ -1,0 +1,118 @@
+body h2 {
+  font-size: 1.2rem;
+  color: #073256;
+  font-weight: 700;
+}
+
+body h3 {
+  font-size: 1rem;
+  color: #073256;
+  font-weight: 700;
+}
+
+body .btn {
+  border-radius: 30px;
+  padding: 0.35rem 1.75rem;
+}
+
+.navbar {
+  background-color: #fff;
+}
+
+.navbar-brand img {
+  height: 40px;
+}
+
+.btn {
+  color: #073256;
+  border: solid 1px #073256;
+}
+
+.navbar-nav li a {
+  text-decoration: none;
+  color: #073256;
+  padding: 8px;
+}
+
+#idioma {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-top: solid 1px #073256;
+  padding-top: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+#idioma li a {
+  margin-right: 20px;
+}
+
+#idioma li .active {
+  font-weight: bold;
+}
+
+main {
+  padding-top: 70px;
+}
+
+.information p {
+  color: #afc3d3;
+  line-height: 1.45;
+}
+
+.information .btn {
+  border-radius: 30px;
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+.information .btn-1 {
+  background-color: #afc3d3;
+  margin-right: 1rem;
+}
+
+.information .btn-2 {
+  background-color: #073256;
+}
+
+.utilities {
+  background-color: rgba(58, 86, 125, 0.1);
+  padding: 40px 0;
+}
+
+.utilities .carousel {
+  padding-bottom: 40px;
+}
+
+.utilities .carousel .carousel-inner {
+  padding: 0 40px;
+}
+
+.utilities .carousel .carousel-item img {
+  max-height: 80px;
+}
+
+.utilities .carousel .carousel-item p {
+  color: #212529;
+}
+
+.utilities .carousel .carousel-control-prev {
+  left: -10px;
+}
+
+.utilities .carousel .carousel-control-next {
+  right: -10px;
+}
+
+.utilities .carousel .btn {
+  background-color: #96b0c5;
+  border-color: #8eaac1;
+  color: #fff;
+}
+
+.utilities .info-bottom .btn {
+  background-color: #fff;
+  border-color: transparent;
+}
+/*# sourceMappingURL=base.css.map */
