@@ -89,16 +89,22 @@ main {
   padding: 40px 0;
 }
 
-.utilities .carousel {
-  padding-bottom: 40px;
-}
-
-.utilities .carousel .carousel-item img {
+.utilities img {
   max-height: 80px;
 }
 
-.utilities .carousel .carousel-item p {
+.utilities p {
   color: #212529;
+}
+
+.utilities .btn {
+  background-color: #96b0c5;
+  border-color: #8eaac1;
+  color: #fff;
+}
+
+.utilities .carousel {
+  padding-bottom: 40px;
 }
 
 .utilities .carousel .carousel-control-prev {
@@ -127,15 +133,14 @@ main {
   height: 20px;
 }
 
-.utilities .carousel .btn {
-  background-color: #96b0c5;
-  border-color: #8eaac1;
-  color: #fff;
-}
-
 .utilities .info-bottom .btn {
+  color: #212529;
   background-color: #fff;
   border-color: transparent;
+}
+
+.utilities .utilities-column .information-cards {
+  border-right: 1px solid rgba(58, 86, 125, 0.4);
 }
 
 #carousel_quotes {
@@ -221,6 +226,12 @@ footer small {
   #introduction h2 {
     font-size: 3rem;
   }
+  .utilities-column h3 {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 992px) {
   #idioma {
     border-top: none;
     border-left: solid 1px #073256;

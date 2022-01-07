@@ -1,0 +1,113 @@
+body h1 {
+  font-size: 40px;
+  color: #073256;
+  font-weight: 700;
+}
+
+body h2 {
+  font-size: 1.2rem;
+  color: #073256;
+  font-weight: 700;
+}
+
+body h3 {
+  font-size: 1rem;
+  color: #073256;
+  font-weight: 700;
+}
+
+body .btn {
+  border-radius: 30px;
+  padding: 0.35rem 1.75rem;
+}
+
+body header .navbar {
+  background-color: #fff;
+}
+
+body header .navbar-brand img {
+  height: 40px;
+}
+
+body header .navbar-toggler {
+  color: #073256;
+  border: solid 1px #073256;
+}
+
+body header .navbar-nav li a {
+  text-decoration: none;
+  color: #3a567D;
+  padding: 8px;
+}
+
+body header .navbar-nav li a:hover {
+  color: #212529;
+}
+
+body header #idioma {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-top: solid 1px #073256;
+  padding-top: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+body header #idioma li a {
+  margin-right: 20px;
+}
+
+body header #idioma li .active {
+  font-weight: bold;
+}
+
+body main {
+  margin-top: 70px;
+}
+
+body main .services img {
+  max-height: 80px;
+}
+
+body main .services .btn {
+  background-color: #96b0c5;
+  border-color: #8eaac1;
+  color: #fff;
+}
+
+body footer {
+  background-color: #f8f9fa;
+}
+
+body footer h3 {
+  font-size: 20px;
+}
+
+body footer ul li {
+  list-style-type: none;
+}
+
+body footer ul li a {
+  text-decoration: none;
+  color: #073256;
+}
+
+body footer ul li a:hover {
+  color: #223249;
+  text-decoration: underline;
+}
+
+body footer small {
+  font-size: 11.5px;
+}
+
+@media (min-width: 992px) {
+  #idioma {
+    border-top: none;
+    border-left: solid 1px #073256;
+    padding-left: 0.75rem;
+    margin-left: 0.75rem;
+  }
+}
+/*# sourceMappingURL=services.css.map */

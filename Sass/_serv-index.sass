@@ -1,0 +1,78 @@
+body
+    h1
+        font-size: 40px
+        color: $sea-blue
+        font-weight: 700
+    h2
+        font-size: 1.2rem
+        color: $sea-blue
+        font-weight: 700
+    h3
+        font-size: 1rem
+        color: $sea-blue
+        font-weight: 700
+    .btn
+        border-radius: 30px 
+        padding: 0.35rem 1.75rem
+    header
+        .navbar
+            background-color: #fff
+
+        .navbar-brand
+            img
+                height: 40px
+
+        .navbar-toggler
+            color: $sea-blue
+            border: solid 1px $sea-blue
+
+        .navbar-nav
+            li
+                a
+                    text-decoration: none
+                    color: #3a567D
+                    padding: 8px 
+                a:hover
+                    color: $dark-gray
+
+        #idioma 
+            flex-direction: row
+            border-top: solid 1px $sea-blue
+            padding-top: 0.75rem
+            margin-top: 0.75rem
+            li
+                a
+                    margin-right: 20px
+                .active
+                    font-weight: bold
+    main
+        margin-top: 70px
+        .services
+            img
+                max-height: 80px
+            .btn
+                background-color: $light-gray2
+                border-color: $gray-border
+                color: #fff
+    footer
+        background-color: $white-gray
+        h3
+            font-size: 20px
+        ul
+            li
+                list-style-type: none
+                a
+                    text-decoration: none
+                    color: $sea-blue
+                a:hover
+                    color: #223249
+                    text-decoration: underline
+        small
+            font-size: 11.5px
+
+@media (min-width: 992px)
+    #idioma
+        border-top: none
+        border-left: solid 1px $sea-blue
+        padding-left: 0.75rem
+        margin-left: 0.75rem
