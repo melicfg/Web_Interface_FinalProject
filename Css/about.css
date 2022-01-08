@@ -11,7 +11,7 @@ body h2 {
 }
 
 body h3 {
-  font-size: 1rem;
+  font-size: 28px;
   color: #073256;
   font-weight: 700;
 }
@@ -21,34 +21,44 @@ body .btn {
   padding: 0.35rem 1.75rem;
 }
 
-body header .navbar {
+body .button-blue {
+  background-color: #073256;
+  color: #FFF;
+}
+
+body .button-blue:hover {
+  background-color: #041d33;
+  color: #FFF;
+}
+
+.navbar {
   background-color: #fff;
 }
 
-body header .navbar-brand img {
+.navbar-brand img {
   height: 40px;
 }
 
-body header .navbar-toggler {
+.navbar-toggler {
   color: #073256;
   border: solid 1px #073256;
 }
 
-body header .navbar-nav li a {
+.navbar-nav li a {
   text-decoration: none;
   color: #3a567D;
   padding: 8px;
 }
 
-body header .navbar-nav li a:hover {
+.navbar-nav li a:hover {
   color: #212529;
 }
 
-body header .navbar-nav li .active {
+.navbar-nav li .active {
   font-weight: bold;
 }
 
-body header #idioma {
+#idioma {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -58,65 +68,75 @@ body header #idioma {
   margin-top: 0.75rem;
 }
 
-body header #idioma li a {
+#idioma li a {
   margin-right: 20px;
 }
 
-body header #idioma li .active {
+#idioma li .active {
   font-weight: bold;
 }
 
-body main {
-  margin-top: 70px;
+main {
+  padding-top: 70px;
 }
 
-body main .services img {
-  max-height: 80px;
+#introduction img {
+  max-height: 50vh;
 }
 
-body main .services .btn {
-  background-color: #afc3d3;
+.information p {
+  color: #afc3d3;
+  line-height: 1.45;
+}
+
+.information .btn {
+  border-radius: 30px;
   color: #fff;
+  border: 1px solid transparent;
 }
 
-body main .services .btn:hover {
-  background-color: #96b0c5;
-  border-color: #8eaac1;
-  color: #FFF;
+.team {
+  background-color: rgba(58, 86, 125, 0.1);
 }
 
-body footer {
+footer {
   background-color: #f8f9fa;
 }
 
-body footer h3 {
+footer h3 {
   font-size: 20px;
 }
 
-body footer ul li {
+footer ul li {
   list-style-type: none;
 }
 
-body footer ul li a {
+footer ul li a {
   text-decoration: none;
   color: #073256;
 }
 
-body footer ul li a:hover {
+footer ul li a:hover {
   color: #223249;
   text-decoration: underline;
 }
 
-body footer small {
+footer small {
   font-size: 11.5px;
+}
+
+@media (min-width: 768px) {
+  #introduction h2 {
+    font-size: 3rem;
+  }
 }
 
 @media (min-width: 992px) {
   #idioma {
-    border-top: none !important;
+    border-top: none;
     border-left: solid 1px #073256;
     padding-left: 0.75rem;
     margin-left: 0.75rem;
   }
 }
-/*# sourceMappingURL=services.css.map */
+/*# sourceMappingURL=about.css.map */

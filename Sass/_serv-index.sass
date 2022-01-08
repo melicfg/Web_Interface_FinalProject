@@ -34,6 +34,8 @@ body
                     padding: 8px 
                 a:hover
                     color: $dark-gray
+                .active
+                    font-weight: bold
 
         #idioma 
             flex-direction: row
@@ -51,9 +53,12 @@ body
             img
                 max-height: 80px
             .btn
-                background-color: $light-gray2
-                border-color: $gray-border
+                background-color: $light-gray
                 color: #fff
+            .btn:hover
+                background-color: #96b0c5
+                border-color: $gray-border
+                color: #FFF
     footer
         background-color: $white-gray
         h3
@@ -72,7 +77,7 @@ body
 
 @media (min-width: 992px)
     #idioma
-        border-top: none
+        border-top: none!important
         border-left: solid 1px $sea-blue
         padding-left: 0.75rem
         margin-left: 0.75rem

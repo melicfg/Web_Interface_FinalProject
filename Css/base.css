@@ -15,6 +15,28 @@ body .btn {
   padding: 0.35rem 1.75rem;
 }
 
+body .button-blue {
+  background-color: #073256;
+  color: #FFF;
+}
+
+body .button-blue:hover {
+  background-color: #041d33;
+  color: #FFF;
+}
+
+body .button-light {
+  background-color: #afc3d3;
+  border: transparent;
+  color: #FFF;
+}
+
+body .button-light:hover {
+  border-color: #8eaac1;
+  background-color: #96b0c5;
+  color: #FFF;
+}
+
 .navbar {
   background-color: #fff;
 }
@@ -75,13 +97,8 @@ main {
   border: 1px solid transparent;
 }
 
-.information .btn-1 {
-  background-color: #afc3d3;
+.information .button-light {
   margin-right: 1rem;
-}
-
-.information .btn-2 {
-  background-color: #073256;
 }
 
 .utilities {
@@ -95,12 +112,6 @@ main {
 
 .utilities p {
   color: #212529;
-}
-
-.utilities .btn {
-  background-color: #96b0c5;
-  border-color: #8eaac1;
-  color: #fff;
 }
 
 .utilities .carousel {
@@ -139,6 +150,10 @@ main {
   border-color: transparent;
 }
 
+.utilities .info-bottom .btn:hover {
+  background-color: #e2e6ea;
+}
+
 .utilities .utilities-column .information-cards {
   border-right: 1px solid rgba(58, 86, 125, 0.4);
 }
@@ -147,13 +162,13 @@ main {
   margin-bottom: 30px;
 }
 
-#carousel_quotes blockquote {
+#carousel_quotes .carousel-inner blockquote {
   margin: 0;
   font-size: 14.5px;
   line-height: 1.3;
 }
 
-#carousel_quotes blockquote small {
+#carousel_quotes .carousel-inner small {
   font-size: 11.5px;
 }
 
@@ -179,21 +194,11 @@ main {
   background-repeat: no-repeat;
   background-position: center;
   height: 6px;
-}
-
-.portfolio_button button {
-  background-color: #073256;
-  color: #FFF;
+  background-color: transparent;
 }
 
 #contact h3 {
   font-size: 28px;
-}
-
-#contact button {
-  background-color: #afc3d3;
-  border: transparent;
-  color: #FFF;
 }
 
 footer {
@@ -226,7 +231,10 @@ footer small {
   #introduction h2 {
     font-size: 3rem;
   }
-  .utilities-column h3 {
+  .utilities h2 {
+    font-size: 2rem;
+  }
+  .utilities .utilities-column h3 {
     font-size: 25px;
   }
 }

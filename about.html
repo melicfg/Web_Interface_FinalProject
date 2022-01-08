@@ -1,20 +1,20 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="./Css/services.css">
-    <title>Our Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./Css/about.css">
+    <title>About</title>
 </head>
 
 <body>
-    <header>
+    <header class="container-fluid">
         <nav class="navbar fixed-top px-3 navbar-expand-lg">
+            <!-- preguntar la funcion del fix-top, porque la imagen no aparecia -->
             <a class="navbar-brand py-2" href="./index.html">
                 <img class="img-fluid" src="https://buildonauts.com/images/logo-full.svg" alt="logo">
             </a>
@@ -23,10 +23,10 @@
                 <!-- preguntar sobre el navbar-nav y el nav-item, si es necesario y que hacen -->
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="./about.html">ABOUT</a>
+                        <a class="nav-link active" href="">ABOUT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="./services.html">OUR SERVICES</a>
+                        <a class="nav-link" href="./services.html">OUR SERVICES</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="">PORTFOLIO</a>
@@ -47,44 +47,62 @@
         </nav>
     </header>
     <main>
-        <section class="container text-center">
-            <div class="row">
-                <div class="col my-5">
-                    <h1>
-                        OUR SERVICES
-                    </h1>
+        <section id="introduction" class="container py-3 py-md-5 information">
+            <div class="row align-items-center">
+                <div class="col-10 col-md-8">
+                    <h2 class="animate__animated animate__fadeInUp">WE'RE BUILDONAUTS!</h2>
+                    <p>The Buildonauts are a team of multi-disciplinary strategists, designers, developers and marketing experts with a strong commercial and technical mindset. We are passionate about all things digital.</p>
+                    <a href="./services.html">
+                        <button class="btn button-blue">Our Services</button>
+                    </a>
                 </div>
-
+                <div class="col-2 col-md-4 align-self-center">
+                    <img src="https://buildonauts.com/images/spaceship.svg" alt="cohete">
+                </div>
             </div>
-            <div class="row services">
-                <div class="col-12 col-md-6 mb-5">
-                    <img class="img-fluid mb-3" src="https://buildonauts.com/images/icons/branding-and-graphic-design.svg" class="d-block w-100" alt="...">
-                    <h3>BRANDING & GRAPHIC DESIGN</h3>
-                    <p>Looking for a memorable business identity? We can craft eye-catching logos, corporate assets and social media images, and can even develop your brand story!</p>
-                    <a class="btn" href="">View more</a>
+        </section>
+        <section class="team py-5">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col text-center mb-4">
+                        <h2>OUR TEAM</h2>
+                    </div>
                 </div>
-                <div class="col-12 col-md-6 mb-5">
-                    <img class="img-fluid mb-3" src="https://buildonauts.com/images/icons/website-design-and-development.svg" class="d-block w-100" alt="...">
-                    <h3>WEBSITE DESIGN AND DEVELOPMENT</h3>
-                    <p>Need a professional website? Whether it's on a CMS or completely custom, we can handle everything from content, design, and development!</p>
-                    <a class="btn" href="">View more</a>
-                </div>
-                <div class="col-12 col-md-6 mb-5">
-                    <img class="img-fluid mb-3" src="https://buildonauts.com/images/icons/search-engine-optimisation.svg" class="d-block w-100" alt="...">
-                    <h3>SEARCH ENGINE OPTIMISATION</h3>
-                    <p>Not seeing your website in search results? We do website audits to find out why that is, and can apply tweaks that will help you appear more frequently.</p>
-                    <a class="btn" href="">View more</a>
-                </div>
-                <div class="col-12 col-md-6 mb-5">
-                    <img class="img-fluid mb-3" src="./iconos/social-media-and-search.svg" class="d-block w-100" alt="...">
-                    <h3>SOCIAL MEDIA & SEARCH ADS</h3>
-                    <p>Having trouble with Facebook, Instagram or Google PPC campaigns? We can set up targeting, write ad copy and optimise to extend your reach.</p>
-                    <a class="btn" href="">View more</a>
+                <div class="row justify-content-center">
+                    <div class="col-6 col-md-3 mb-4">
+                        <img class="img-fluid mb-3" src="https://buildonauts.com/images/portrait/Craig.jpg" alt="Craig">
+                        <h3>Craig</h3>
+                        <p>Founder</p>
+                    </div>
+                    <div class="col-6 col-md-3 mb-4">
+                        <img class="img-fluid mb-3" src="https://buildonauts.com/images/portrait/Michelle.jpg" alt="Michelle">
+                        <h3>Michelle</h3>
+                        <p>Co-founder</p>
+                    </div>
+                    <div class="col-6 col-md-3 mb-4">
+                        <img class="img-fluid mb-3" src="https://buildonauts.com/images/portrait/Emily.jpg" alt="Emily">
+                        <h3>Emily</h3>
+                        <p>Project Management</p>
+                    </div>
+                    <div class="col-6 col-md-3 mb-4">
+                        <img class="img-fluid mb-3" src="https://buildonauts.com/images/portrait/Winko.jpg" alt="Winko">
+                        <h3>Winko</h3>
+                        <p>UI / UX</p>
+                    </div>
+                    <div class="col-6 col-md-3 mb-4">
+                        <img class="img-fluid mb-3" src="https://buildonauts.com/images/portrait/Kay.jpg" alt="Kay">
+                        <h3>Kay</h3>
+                        <p>Web Development</p>
+                    </div>
+                    <div class="col-6 col-md-3 mb-4">
+                        <img class="img-fluid mb-3" src="https://buildonauts.com/images/portrait/Carla.jpg" alt="Carla">
+                        <h3>Carla</h3>
+                        <p>Business Development (Indonesia)</p>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
-
     <footer>
         <div class="container py-5">
             <div class="row">
@@ -149,10 +167,8 @@
                 </div>
             </div>
     </footer>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/42577673b0.js" crossorigin="anonymous"></script>
-
 </body>
 
 </html>
